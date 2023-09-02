@@ -9,8 +9,11 @@ public class Student_Class
         //ArrayList<Integer> ll=new ArrayList();
         Student s=new Student();
         s.age=27;
-        s.name="tanish";
+        s.name="Singh";
         s.Intro_Yourself();
+        s.SayHey("tanish");
+
+        Student.fun(3);
 
     }
 }
