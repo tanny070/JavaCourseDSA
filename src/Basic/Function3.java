@@ -1,3 +1,4 @@
+package Basic;
 
 public class Function3 {
 	static int val=100;

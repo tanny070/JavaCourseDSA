@@ -1,4 +1,6 @@
-import java.util.*;
+package Basic;
+
+import java.util.Scanner;
 public class FahtToCels {
 
 	public static void main(String args[]) {

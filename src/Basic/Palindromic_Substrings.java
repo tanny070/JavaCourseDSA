@@ -1,3 +1,5 @@
+package Basic;
+
 public class Palindromic_Substrings
 {
     public static void main(String[] args)
