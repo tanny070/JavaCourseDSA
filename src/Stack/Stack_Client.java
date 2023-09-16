@@ -3,7 +3,7 @@ package Stack;
 public class Stack_Client
 {
     public static void main(String[] args) throws Exception {
-        Stack st=new Stack();
+        Stack<Number> st=new Stack<Number>();
         st.push(10);
         st.push(20);
         st.push(30);

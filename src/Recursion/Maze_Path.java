@@ -23,7 +23,7 @@ public class Maze_Path
 
         }
         Printpath(er,ec,cr,cc+1,ans+"H");
-        Printpath(er,ec,cr+1,cc,ans+"V ");
+        Printpath(er,ec,cr+1,cc,ans+"V");
 
     }
 }
