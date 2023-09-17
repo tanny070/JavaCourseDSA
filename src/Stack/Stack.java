@@ -1,7 +1,7 @@
 package Stack;
 
 public class Stack<I extends Number> {
-    private int[] arr;
+    protected int[] arr;
     private int idx=-1;
     public Stack()
     {
