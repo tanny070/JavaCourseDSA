@@ -53,6 +53,11 @@ public class Queue
         return rv;
     }
 
+    public int size()
+    {
+        return this.size;
+    }
+
     public void display()
     {
         for (int i = 0; i < size; i++)

@@ -19,7 +19,8 @@ public class Queue_Dynamic extends Queue
         super.Enqueue(item);
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception
+    {
         Queue_Dynamic dq = new Queue_Dynamic();
         dq.Enqueue(10);
         dq.Enqueue(20);
