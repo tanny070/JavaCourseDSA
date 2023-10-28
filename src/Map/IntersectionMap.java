@@ -9,10 +9,16 @@ public class IntersectionMap
     {
         int arr1[]={1,2,2,1};
         int arr2[]={2,2};
+        int ans[]=intersect(arr1, arr2);
+        System.out.print("[");
+        for (int i = 0; i < ans.length; i++) {
+            System.out.print(ans[i]+", ");
+        }
+        System.out.print("]");
 
     }
 
-    public int[] intersect(int[] nums1, int[] nums2) 
+    public static int[] intersect(int[] nums1, int[] nums2) 
     {
         HashMap<Integer,Integer> map = new HashMap<>();
         for (int i = 0; i < nums1.length; i++) 
